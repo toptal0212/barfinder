@@ -16,7 +16,7 @@ export type WeatherType = {
   temp: number;
   text: string;
 };
-
+ 
 export type MarkerType = {
   id: string;
   location: google.maps.LatLngLiteral;
